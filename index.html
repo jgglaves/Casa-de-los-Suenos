@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coco Paradise | Direct Luxury Rental</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .hero-gradient { 
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('mains suenos front.jpg'); 
+            background-size: cover; 
+            background-position: center; 
+        }
+        .smooth-scroll { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 smooth-scroll">
+
+    <nav class="fixed w-full z-50 bg-white/95 backdrop-blur-md shadow-sm">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-serif font-bold tracking-tighter text-emerald-900 uppercase">Coco Paradise</h1>
+            <div class="hidden md:flex space-x-8 font-medium">
+                <a href="#about" class="hover:text-emerald-600 transition">The Villa</a>
+                <a href="#gallery" class="hover:text-emerald-600 transition">Photos</a>
+                <a href="#contact" class="hover:text-emerald-600 transition">Contact Jeff</a>
+                <a href="https://wa.me/15197612677" class="bg-emerald-700 text-white px-6 py-2 rounded-full hover:bg-emerald-800 transition flex items-center gap-2">
+                    <i class="fa-brands fa-whatsapp"></i> Book Direct
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="h-screen hero-gradient flex items-center justify-center text-center text-white px-4">
+        <div>
+            <span class="uppercase tracking-[0.3em] text-sm mb-4 block">Private Guanacaste Retreat</span>
+            <h2 class="text-5xl md:text-7xl font-serif mb-6">Playas del Coco</h2>
+            <div class="flex flex-col md:flex-row gap-4 justify-center">
+                <a href="https://drive.google.com/drive/folders/1xoCDBpJSuGuSmtBxYX6SzBEaRLYIYvLd?usp=sharing" target="_blank" class="bg-white text-emerald-900 px-8 py-3 rounded-full font-bold hover:bg-emerald-50 transition flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-images"></i> View All Photos
+                </a>
+                <a href="https://wa.me/15197612677" class="border-2 border-white px-8 py-3 rounded-full hover:bg-white/10 transition">WhatsApp Jeff</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="py-20 max-w-7xl mx-auto px-6">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h3 class="text-3xl font-serif mb-6 text-emerald-900">Your Private Sanctuary</h3>
+                <p class="text-gray-600 leading-relaxed mb-6">
+                    Welcome to our home in beautiful Playas del Coco. This modern villa is designed for those who appreciate the finer things—from morning coffee by the private pool to sunset views over the Guanacaste hills.
+                </p>
+                <div class="grid grid-cols-2 gap-4 mb-8">
+                    <div class="flex items-center space-x-3 text-emerald-800"><i class="fa-solid fa-water-ladder"></i><span>Private Pool</span></div>
+                    <div class="flex items-center space-x-3 text-emerald-800"><i class="fa-solid fa-wind"></i><span>Central A/C</span></div>
+                    <div class="flex items-center space-x-3 text-emerald-800"><i class="fa-solid fa-wifi"></i><span>Fiber Optic</span></div>
+                    <div class="flex items-center space-x-3 text-emerald-800"><i class="fa-solid fa-key"></i><span>Gated Entry</span></div>
+                </div>
+            </div>
+            <div id="gallery" class="grid grid-cols-2 gap-4">
+                <img src="living-room.jpg" class="rounded-2xl shadow-lg object-cover h-64 w-full">
+                <img src="bedroom.jpg" class="rounded-2xl shadow-lg mt-8 object-cover h-64 w-full">
+                <div class="col-span-2 mt-4">
+                    <a href="https://drive.google.com/drive/folders/1xoCDBpJSuGuSmtBxYX6SzBEaRLYIYvLd?usp=sharing" target="_blank" class="block text-center border-2 border-dashed border-emerald-200 py-6 rounded-2xl hover:bg-emerald-50 transition group">
+                        <p class="text-emerald-700 font-bold group-hover:scale-105 transition">Click here to see 20+ more photos of the house →</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 max-w-5xl mx-auto px-6 text-center">
+        <div class="bg-white border-2 border-emerald-50 p-12 rounded-[3rem] shadow-2xl">
+            <h3 class="text-4xl font-serif text-emerald-900 mb-2">Ready to Book?</h3>
+            <p class="text-gray-500 mb-10">Contact Jeff Glaves directly for availability and seasonal rates.</p>
+            <div class="flex flex-col md:flex-row justify-center gap-6">
+                <a href="https://wa.me/15197612677" class="flex-1 bg-emerald-600 text-white px-8 py-5 rounded-2xl flex items-center justify-center gap-3">
+                    <i class="fa-brands fa-whatsapp text-2xl"></i>
+                    <span class="font-bold text-lg">WhatsApp Jeff</span>
+                </a>
+                <a href="mailto:jgglaves@outlook.com?subject=Inquiry for Coco Paradise" class="flex-1 bg-sky-700 text-white px-8 py-5 rounded-2xl flex items-center justify-center gap-3">
+                    <i class="fa-solid fa-envelope text-2xl"></i>
+                    <span class="font-bold text-lg">Email Jeff</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-100 py-12 border-t text-center">
+        <p class="font-serif text-emerald-900 font-bold text-xl mb-2 uppercase">Coco Paradise</p>
+        <p class="text-gray-400 text-xs tracking-widest">&copy; 2026 Guanacaste, Costa Rica. Pura Vida!</p>
+    </footer>
+
+</body>
+</html>
